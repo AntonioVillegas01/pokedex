@@ -18,6 +18,15 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+
+CLONAR EL ARCHIVO .ENV-TEMPLATE 
+
+
+5Levantar la base de datos
+```
+yarn start:dev
+```
+
 5 Recounstruir la base de datos con la semilla
 ```
 http://localhost:3000/api/v2/seed
